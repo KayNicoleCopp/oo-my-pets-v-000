@@ -11,6 +11,7 @@ def initialize(species)
 end
 
 def say_species
+  return "I am a #{@species}."
 end
 
 def self.all
