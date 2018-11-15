@@ -10,6 +10,9 @@ def initialize(species)
   @pets = {:fish => [], :dogs => [], :cats => []}
 end
 
+def say_species
+end
+
 def self.all
   @@all
 end
