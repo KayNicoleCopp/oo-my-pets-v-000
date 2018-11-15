@@ -22,6 +22,10 @@ def buy_cat(name_of_cat)
   @pets[:cats] << Cat.new(name_of_cat)
 end
 
+def buy_dog(name_of_dog)
+  @pets[:dogs] << Dog.new(name_of_dog)
+end
+
 def self.all
   @@all
 end
