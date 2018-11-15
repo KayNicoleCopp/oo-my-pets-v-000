@@ -18,6 +18,10 @@ def buy_fish(name_of_fish)
   @pets[:fishes] << Fish.new(name_of_fish)
 end
 
+def buy_cat(name_of_cat)
+  @pets[cats] << Cat.new(name_of_cat)
+end
+
 def self.all
   @@all
 end
