@@ -14,6 +14,10 @@ def say_species
   return "I am a #{@species}."
 end
 
+def buy_fish(name_of_fish)
+  @pets[:fishes] << Fish.new(name_of_fish)
+end
+
 def self.all
   @@all
 end
