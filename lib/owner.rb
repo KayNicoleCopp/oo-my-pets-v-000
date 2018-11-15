@@ -56,6 +56,15 @@ def feed_fish
   end
 end
 
+def sell_pets
+  @pets.collect do |species, instances|
+    instances.each do |pet|
+      pet.mood = "nervous"
+    end
+    instances.clear
+  end
+end
+
 
 def self.all
   @@all
