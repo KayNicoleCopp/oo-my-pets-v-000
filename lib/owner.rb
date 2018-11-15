@@ -34,6 +34,7 @@ def walk_dogs
       end
     end
   end
+end
 
 
 def self.all
